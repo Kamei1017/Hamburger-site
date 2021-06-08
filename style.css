@@ -1,1 +1,31 @@
+@charset "UTF-8";
 
+* {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   border-style: solid;
+   border-width: 0;
+}
+
+.l-header {
+   height: 215px;
+   width: 100%;
+   display: flex;
+   background-color: #FFF7EF;
+   justify-content: space-between;
+}
+
+.l-header-title {
+   color: #707070;
+   text-align: center;
+   margin-top: 85px;
+   margin-left: 65px;
+}
+
+.l-header-search input[type="text"]{
+   height: 2.0em;
+}
+
+.l-main-contents img {
+   height: 530px;
+}
