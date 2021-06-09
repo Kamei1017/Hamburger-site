@@ -23,7 +23,15 @@
 }
 
 .l-header-search input[type="text"]{
+   border: 1px solid #999;
+   padding: 3px 5px;
+   border-radius: 20px;
    height: 2.0em;
+   overflow: hidden;
+}
+
+.l-header-search input[type="text"]:focus {
+   outline: 0;
 }
 
 .l-main-contents img {
