@@ -13,8 +13,31 @@
    background-color: #FFF7EF;
 }
 
+.l-header-top {
+   position: fixed;
+   display: block;
+   height: 60px;
+   z-index: 100;
+}
+
+.p-bar {
+   width: 100%;
+   text-align: right;
+   background-color: #fff7ef;
+}
+
+.p-bar-button {
+   font-size: 30px;
+   background-color: #fff7ef;
+   font-weight: bold;
+}
+
 .p-search {
    text-align: center;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .p-search input[type="search"]{
@@ -35,25 +58,43 @@
    font-size: 2rem;
 }
 
+.p-search-button {
+   width: 100px;
+   height: 3rem;
+   background-color: #f2ede9;
+   border-radius: 0.6rem;
+   border: 1px solid #707070;
+   color: #707070;
+   cursor: pointer;
+}
+
 .l-header-title {
    height: 220px;
-   margin: 0;
+   padding-top: 50px;
+   margin: auto;
+   color: #707070;
 }
 
-.l-header-title a {
+.l-header-title h1 {
    text-align: center;
+   font-size: 40px;
+   font-weight: bold;
 }
 
-.p-bar {
+.l-main-top {
+   background-image: url(../Hamburger-site/img/main-top.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 280px;
    width: 100%;
-   position: fixed;
-   padding: 15px;
-   text-align: right;
-   z-index: 100;
-   background-color: #fff7ef;
+   padding-bottom: 50px;
 }
 
-.p-bar-button {
-   font-size: 30px;
-   background-color: #fff7ef;
+.l-main-top h2 {
+   position: relative;
+   color: #fff;
+   line-height: 280px;
+   padding-left: 25px;
+   font-size: 36px;
 }
